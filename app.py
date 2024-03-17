@@ -26,12 +26,12 @@ def index():
 
 @app.route("/Customer")
 def customer():
-    return render_template("customer.html", user_type="Customer")
+    return render_template("Customer.html", user_type="Customer")
 
 
 @app.route("/Owner")
 def owner():
-    return render_template("owner.html", user_type="Owner")
+    return render_template("Owner.html", user_type="Owner")
 
 
 if __name__ == "__main__":
