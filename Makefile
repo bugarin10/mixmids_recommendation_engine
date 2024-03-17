@@ -5,4 +5,4 @@ install:
 	pip install -r requirements.txt
 
 docker:
-	docker build --platform linux/amd64 -t bugarin10/midsmix:latest .
+	docker build -t bugarin10/midsmix:latest .
